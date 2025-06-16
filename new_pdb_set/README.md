@@ -11,7 +11,8 @@
 | T1131TS498_5    | p5    |
 
 * first, a script to convert PDBs:
-    * add protons (pdb4amber)
+    * add protons (pdb4amber), see `pdb_reduce/protonation.sh`
+* then a script to use chimerax and convert the following of each, see `trp_cys_mod.sh`
     * convert all TRP to 5F-TRP
         * 37 74 108 121 152
     * convert to CYS: V24 V104 N79
