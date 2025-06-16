@@ -1,0 +1,14 @@
+open p5.pdb
+
+build modify /?:37@HZ3 F 1 name FZ3 resName W5F
+build modify /?:74@HZ3 F 1 name FZ3 resName W5F
+build modify /?:108@HZ3 F 1 name FZ3 resName W5F
+build modify /?:121@HZ3 F 1 name FZ3 resName W5F
+build modify /?:152@HZ3 F 1 name FZ3 resName W5F
+
+swapaa #1/?:24 CYS criteria 1 rotLib Dunbrack
+swapaa #1/?:79 CYS criteria 1 rotLib Dunbrack
+swapaa #1/?:104 CYS criteria 1 rotLib Dunbrack
+
+save p5_modified.pdb format pdb
+exit

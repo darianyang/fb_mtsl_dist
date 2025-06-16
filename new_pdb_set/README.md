@@ -3,4 +3,5 @@
 * first, a script to convert PDBs:
     * add protons (pdb4amber)
     * convert all TRP to 5F-TRP
-    * convert to CYS: N24 S104 N79
+        * 37 74 108 121 152
+    * convert to CYS: V24 V104 N79
